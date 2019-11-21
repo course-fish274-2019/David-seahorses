@@ -54,3 +54,15 @@ ggplot(data = new_data) +
   xlab("Number Sighted") +
   ylab("Average Height (cm)") 
 ```
+
+## Separting height range into min and max height
+
+```{r}
+data_separated <- select(Hippocampus_reidi_Brazil, Location, Number_Sighted, Average_Height_cm, Height_Range_cm) 
+
+data_separated %>%
+  separate(Height_Range_cm, into = c("Minimum_Height_cm", "Maximum_Height_cm"), sep = "-")
+```
+
+
+
