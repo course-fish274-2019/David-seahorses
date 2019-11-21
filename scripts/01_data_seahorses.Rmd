@@ -43,3 +43,14 @@ new_data <- select(Hippocampus_reidi_Brazil, Location, Number_Sighted, Average_H
 
 knitr::kable(head(new_data))
 ```
+
+## Plotting Average Height vs Number Sighted
+
+```{r}
+ggplot(data = new_data) + 
+  geom_point(mapping = aes(x = Number_Sighted, y = Average_Height_cm, color = Location)) +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  xlab("Number Sighted") +
+  ylab("Average Height (cm)") 
+```
