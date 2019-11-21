@@ -35,4 +35,11 @@ Hippocampus_reidi_Brazil <- read.csv("../raw_data/Hippocampus_reidi_Brazil.csv")
 head(Hippocampus_reidi_Brazil)
 ```
 
+## Narrowing Data Set to Relative Fields
 
+```{r}
+new_data <- select(Hippocampus_reidi_Brazil, Location, Number_Sighted, Average_Height_cm) 
+   
+
+knitr::kable(head(new_data))
+```
