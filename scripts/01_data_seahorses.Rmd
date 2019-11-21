@@ -4,9 +4,9 @@ output: html_document
 ---
 
 
-## **Hippocampus reidi and where to see it in the wild**
+## **_Hippocampus reidi_ and where to see it in the wild**
 
-The visable population and size of Hippocampus reidi will be compared to show where the most likely areas would be to see it 
+The visable population and size of _Hippocampus reidi_ will be compared to show where the most likely areas would be to see it 
 in the wild. This can be used by snorkelers and skuba divers to plan
 vacation destinations. 
 
@@ -20,7 +20,7 @@ In this document I will:
 
 ---
 
-## Tourist locations for Hippocampus reidi in Brazil
+## Tourist locations for _Hippocampus reidi_ in Brazil
 
 ## Required Packages
 
