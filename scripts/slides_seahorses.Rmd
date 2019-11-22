@@ -3,9 +3,9 @@ title: "Slides"
 output: ioslides_presentation
 ---
 
-## Seahorses
+## **Seahorses**
 
-This presentation shows the size and locations for visible _Hippocampus reidi_ populations on the coast of Brazil. Its purpose is to help snorkelrs and scuba divers who want to view seahorses in the wild.  
+This presentation shows the size and locations for visible _Hippocampus reidi_ populations off the coast of Brazil. Its purpose is to help snorkelers and scuba divers who want to view seahorses in the wild.  
 
 ## **Locations in Brazil to find _Hippocampus reidi_**
 
@@ -26,4 +26,13 @@ This presentation shows the size and locations for visible _Hippocampus reidi_ p
 
 ![picture of hippocampus reidi](../images/Hippocampus_reidi.jpg)
 
+## **Data for _Hippocampus reidi_** 
+
+```{r raw_data, echo=FALSE}
+
+Hippocampus_reidi_Brazil <- read.csv("../raw_data/Hippocampus_reidi_Brazil.csv")
+
+knitr::kable(head(Hippocampus_reidi_Brazil))
+
+```
 
