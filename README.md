@@ -15,3 +15,5 @@ Files needed -
   - scripts/slides_seahorses.Rmd (Markdown file containing slideshow)
   
   - output/slides_seahorses.html (.html file from slideshow)
+
+  - images/Hippocampus_reidi.jpg (image of seahorse)
