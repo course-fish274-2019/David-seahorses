@@ -1,0 +1,28 @@
+---
+title: "Slides"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+This presentation shows the size and locations for visible _Hippocampus reidi_ populations on the coast of Brazil 
+
+## **Locations in Brazil to find _Hippocampus reidi_**
+
+- Camurupim
+- Ubatuba
+- Pacoti
+- Mal Cozinhado
+- Tubarão
+- Casqueira
+- Mamanguape
+- Itapessoca
+- Ariquindá
+- Andorinhas
+- Itaipu
+- Penha
+
