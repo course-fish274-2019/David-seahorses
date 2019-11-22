@@ -3,13 +3,9 @@ title: "Slides"
 output: ioslides_presentation
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+## Seahorses
 
-## R Markdown
-
-This presentation shows the size and locations for visible _Hippocampus reidi_ populations on the coast of Brazil 
+This presentation shows the size and locations for visible _Hippocampus reidi_ populations on the coast of Brazil. Its purpose is to help snorkelrs and scuba divers who want to view seahorses in the wild.  
 
 ## **Locations in Brazil to find _Hippocampus reidi_**
 
@@ -25,4 +21,9 @@ This presentation shows the size and locations for visible _Hippocampus reidi_ p
 - Andorinhas
 - Itaipu
 - Penha
+
+## **_Hippocampus reidi_** 
+
+![picture of hippocampus reidi](../images/Hippocampus_reidi.jpg)
+
 
