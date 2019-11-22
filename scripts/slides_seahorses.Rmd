@@ -1,5 +1,6 @@
 ---
-title: "Slides"
+title: "_Hippocampus reidi_"
+author: David Jones
 output: ioslides_presentation
 ---
 
@@ -7,10 +8,10 @@ output: ioslides_presentation
 
 This presentation shows the size and locations for visible _Hippocampus reidi_ populations off the coast of Brazil. Its purpose is to help snorkelers and scuba divers who want to view seahorses in the wild.  
 
-## **Locations in Brazil to find _Hippocampus reidi_**
+## **Locations in Brazil to find _Hippocampus reidi_** {.smaller}
 
-- Camurupim
-- Ubatuba
+- Camurupim         
+- Ubatuba             
 - Pacoti
 - Mal Cozinhado
 - Tubarão
@@ -26,7 +27,7 @@ This presentation shows the size and locations for visible _Hippocampus reidi_ p
 
 ![picture of hippocampus reidi](../images/Hippocampus_reidi.jpg)
 
-## **Data for _Hippocampus reidi_** 
+## **Data for _Hippocampus reidi_** {.smaller}
 
 ```{r raw_data, echo=FALSE}
 
@@ -36,7 +37,7 @@ knitr::kable(head(Hippocampus_reidi_Brazil))
 
 ```
 
-## Modified data for _Hippocampus reidi_
+## Modified data for _Hippocampus reidi_ {.smaller}
 
 This code separates the average height column into minimum and maximum height columns.
 
@@ -53,3 +54,5 @@ data_separated %>%
   separate(Height_Range_cm, into = c("Minimum_Height_cm", "Maximum_Height_cm"), sep = "-")
 
 ```
+
+## Graph of _Hippocampus reidi_ size and visible populations
