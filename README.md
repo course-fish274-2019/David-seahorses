@@ -1,6 +1,6 @@
 # David-seahorses
 
-Reason for the project - To determine where the best places to see hippocampus reidi in the wild while visiting Brazil.
+Reason for the project - To determine where the best places to see _Hippocampus reidi_ in the wild while visiting Brazil.
 
 R package needed for use - Tidyverse
 
