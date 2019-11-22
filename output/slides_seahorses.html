@@ -3194,7 +3194,45 @@ slide:not(.current) .plotly.html-widget{
 <td align="right">11.0</td>
 <td align="left">NA</td>
 </tr>
-</table></article></slide>
+</table>
+
+</article></slide><slide class=""><hgroup><h2>Modified data for <em>Hippocampus reidi</em></h2></hgroup><article  id="modified-data-for-hippocampus-reidi">
+
+<p>This code separates the average height column into minimum and maximum height columns.</p>
+
+<pre class = 'prettyprint lang-r'>library(tidyverse)</pre>
+
+<pre class = 'prettyprint lang-r'>data_separated &lt;- select(Hippocampus_reidi_Brazil, Location, Number_Sighted, Average_Height_cm, Height_Range_cm) 
+
+data_separated %&gt;%
+  separate(Height_Range_cm, into = c(&quot;Minimum_Height_cm&quot;, &quot;Maximum_Height_cm&quot;), sep = &quot;-&quot;)</pre>
+
+<pre >##         Location Number_Sighted Average_Height_cm Minimum_Height_cm
+## 1      Camurupim            125             12.60               3.0
+## 2       Ubatuba               9             13.83               7.5
+## 3         Pacoti            169              7.60               3.4
+## 4  Mal Cozinhado             63              6.10               2.4
+## 5        Tubarão            134             13.50               5.5
+## 6     Casqueira             198             14.20               4.5
+## 7     Mamanguape             41             13.00               5.0
+## 8     Itapessoca             80             12.80               5.7
+## 9      Ariquindá             42             14.00               6.0
+## 10    Andorinhas             19              9.30               5.5
+## 11        Itaipu             27             13.90               5.5
+## 12         Penha              5              8.00               3.5
+##    Maximum_Height_cm
+## 1               17.5
+## 2               17.0
+## 3               16.4
+## 4               13.0
+## 5               19.5
+## 6               20.0
+## 7               18.0
+## 8               17.0
+## 9               18.0
+## 10              13.9
+## 11              19.0
+## 12              11.5</pre></article></slide>
 
 
   <slide class="backdrop"></slide>
