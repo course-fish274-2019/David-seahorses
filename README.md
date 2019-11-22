@@ -8,6 +8,10 @@ Files needed -
 
   - raw_data/Hippocampus_reidi_Brazil.csv (original dataset)
   
-  - scripts/01_data_seahorses.Rmd (Markdown file containing code)
+  - scripts/01_data_seahorses.Rmd (Markdown file containing code from data)
   
-  - output/01_data_seahorses.html (.html file from scripts)
+  - output/01_data_seahorses.html (.html file from data)
+  
+  - scripts/slides_seahorses.Rmd (Markdown file containing slideshow)
+  
+  - output/slides_seahorses.html (.html file from slideshow)
