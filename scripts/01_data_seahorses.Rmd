@@ -64,5 +64,5 @@ data_separated %>%
   separate(Height_Range_cm, into = c("Minimum_Height_cm", "Maximum_Height_cm"), sep = "-")
 ```
 
-
+## Calculating average heights and the location to see if there is a trend
 
