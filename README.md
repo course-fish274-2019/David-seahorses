@@ -17,3 +17,15 @@ Files needed -
   - output/slides_seahorses.html (.html file from slideshow)
 
   - images/Hippocampus_reidi.jpg (image of seahorse)
+  
+  - images/Locations.jpg (Map of seahorse locations)
+  
+  
+  Mini-Project -
+  
+   - Add a map of Brazil showing all locations 
+   
+   - Create whisker plots of all average heights
+   
+   -
+   
