@@ -4,10 +4,8 @@ author: David Jones
 output: ioslides_presentation
 ---
 
-```{r, setup, include=FALSE}
-
-knitr::opts_chunk$set(fig.width = 8, collapse = TRUE)
-
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{r, message=FALSE}
@@ -39,9 +37,13 @@ This presentation shows the size and locations for visible _Hippocampus reidi_ p
 
 ![picture of hippocampus reidi](../images/Hippocampus_reidi.jpg)
 
+## Map of Seahorse Locations
+
+![Brazil](../images/Locations.jpg)
+
 ## **Data for _Hippocampus reidi_** {.smaller}
 
-```{r raw_data, echo=FALSE}
+```{r raw_data}
 
 Hippocampus_reidi_Brazil <- read.csv("../raw_data/Hippocampus_reidi_Brazil.csv")
 
@@ -67,7 +69,7 @@ knitr::kable(head(Hippocampus_reidi_Brazil))
 
 ## **Graph of _Hippocampus reidi_ size and visible populations**
 
-```{r echo=FALSE}
+```{r}
 
 ggplot(data = data_separated) + 
   geom_point(mapping = aes(x = Number_Sighted, y = Avg_Height_cm, color = Location)) +
