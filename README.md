@@ -18,6 +18,8 @@ Files needed -
 
   - images/Hippocampus_reidi.jpg (image of seahorse)
   
+  - images/Locations.jpg (Map of seahorse locations)
+  
   
   Mini-Project -
   
