@@ -17,3 +17,13 @@ Files needed -
   - output/slides_seahorses.html (.html file from slideshow)
 
   - images/Hippocampus_reidi.jpg (image of seahorse)
+  
+  
+  Mini-Project -
+  
+   - Add a map of Brazil showing all locations 
+   
+   -
+   
+   -
+   
