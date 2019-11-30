@@ -1,13 +1,13 @@
-Location,Number_Sighted,Average_Height_cm,Height_Range_cm,Height_of_smallest_male_with_pouch_cm,
-Camurupim,125,12.6,3.0-17.5,11.0,                                              
-Ubatuba ,9,13.83,7.5-17.0,13.0,
-Pacoti,169,7.6,3.4-16.4,4.2,
-Mal Cozinhado,63,6.1,2.4-13.0,3.5,
-Tubarão,134,13.5,5.5-19.5,10.5,
-Casqueira ,198,14.2,4.5-20.0,11.0,
-Mamanguape,41,13.0,5.0-18.0,11.0,
-Itapessoca,80,12.8,5.7-17.0,10.4,
-Ariquindá,42,14.0,6.0-18.0,12.0,
-Andorinhas,19,9.3,5.5-13.9,7.5,
-Itaipu,27,13.9,5.5-19.0,9.1,
-Penha,5,8.0,3.5-11.5,8.0,
+Location,Number_Sighted,Sex_Ratio_M/F,Avg_Height_cm,Height_Range_cm,Height_smallest_male_with_pouch_cm,Avg_Height_nonbrooding_males_cm,Height_Range_nonbrooding_male_cm,Avg_Height_immature_females_cm,Height_Range_immature_females_cm,Avg_Height_brooding_males_cm,Height_Range_brooding_males_cm,Avg_Height_mature_females_cm,Height_Range_mature_females_cm
+Camurupim,125,2.48:1.0,12.6,3.0-17.5,11.0,14.7,11.0-17.0,13.9,6.5-17.0,14.8,12.5-17.5,15.3,13.0-16.5
+Ubatuba ,9,0.5:1.0,13.8,7.5-17.0,13.0,13.0,na,15.5,13.5-16.0,13.0,na,16.0,15.0-17.0
+Pacoti,169,0.88:1.0,7.6,3.4-16.4,4.2,8.5,4.2-13.5,7.8,4.0-11.5,11.6,6.5-16.4,7.1,5.9-9.2
+Mal Cozinhado,63,0.25:1.0,6.1,2.4-13.0,3.5,3.5,na,9.2,3.0-11.3,11.0,na,8.0,na
+Tubarão,134,1.66:1.0,13.5,5.5-19.5,10.5,15.0,10.5-17.2,15.7,13.5-19.0,15.9,13.5-18.0,16.4,10.0-19.5
+Casqueira ,198,1.0:1.0,14.2,4.5-20.0,11.0,15.6,11.0-19.0,12.8,10.0-16.5,16.6,14.0-20.0,15.5,10.0-18.0
+Mamanguape,41,1.14:1.0,13.0,5.0-18.0,11.0,13.3,11.0-15.0,14.0,11.0-17.0,14.9,12.0-18.0,14.6,12.0-16.5
+Itapessoca,80,1.1:1.0,12.8,5.7-17.0,10.4,14.5,10.4-16.0,14.9,6.6-17.0,14.7,13.1-15.8,14.8,13.7-16.0
+Ariquindá,42,0.92:1.0,14.0,6.0-18.0,12.0,16.6,12.0-18.0,15.2,6.2-16.8,16.1,15.1-17.0,14.1,12.8-16.0
+Andorinhas,19,5.0:1.0,9.3,5.5-13.9,7.5,12.0,7.5-12.3,na,na,11.6,11.6-13.7,13.9,na
+Itaipu,27,1.4:1.0,13.9,5.5-19.0,9.1,14.7,9.1-16.1,13.9,5.5-15.8,16.0,12.6-19.0,13.9,12.8-15.0
+Penha,5,na,8.0,3.5-11.5,8.0,na,na,na,na,na,na,na,na

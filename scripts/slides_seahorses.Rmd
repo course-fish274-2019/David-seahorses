@@ -4,6 +4,18 @@ author: David Jones
 output: ioslides_presentation
 ---
 
+```{r, setup, include=FALSE}
+
+knitr::opts_chunk$set(fig.width = 8, collapse = TRUE)
+
+```
+
+```{r, message=FALSE}
+
+library(tidyverse)
+
+```
+
 ## **Seahorses**
 
 This presentation shows the size and locations for visible _Hippocampus reidi_ populations off the coast of Brazil. Its purpose is to help snorkelers and scuba divers who want to view seahorses in the wild.  
@@ -41,14 +53,10 @@ knitr::kable(head(Hippocampus_reidi_Brazil))
 
 This code separates the average height column into minimum and maximum height columns.
 
-```{r, message=FALSE}
 
-library(tidyverse)
+```{r, echo=TRUE}
 
-```
-```{r}
-
-data_separated <- select(Hippocampus_reidi_Brazil, Location, Number_Sighted, Average_Height_cm, Height_Range_cm) 
+data_separated <- select(Hippocampus_reidi_Brazil, Location, Number_Sighted, Avg_Height_cm, Height_Range_cm) 
 
 data_separated %>%
   separate(Height_Range_cm, into = c("Minimum_Height_cm", "Maximum_Height_cm"), sep = "-")
@@ -60,12 +68,14 @@ knitr::kable(head(Hippocampus_reidi_Brazil))
 ## **Graph of _Hippocampus reidi_ size and visible populations**
 
 ```{r echo=FALSE}
+
 ggplot(data = data_separated) + 
-  geom_point(mapping = aes(x = Number_Sighted, y = Average_Height_cm, color = Location)) +
+  geom_point(mapping = aes(x = Number_Sighted, y = Avg_Height_cm, color = Location)) +
   theme_bw() +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
   xlab("Number Sighted") +
   ylab("Average Height (cm)") 
+
 ```
 
 
