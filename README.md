@@ -25,7 +25,9 @@ Files needed -
   
    - Add a map of Brazil showing all locations 
    
-   - Create box plots of all average heights
+   - Create box plots of all average heights and combine them by making each new min/max height column its own dataset and using 
+   
+     the data.frame function
    
    -
    
