@@ -73,7 +73,7 @@ knitr::kable(head(Hippocampus_reidi_Brazil))
 
 ```
 
-## First boxplot - it might be easier to make my whisker plot in excel and import the image
+## First boxplot (work needed)
 
 ```{r}
 ggplot(data=data, mapping=aes(x=Location, y=Avg_Height_cm)) + geom_boxplot()
