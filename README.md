@@ -25,7 +25,7 @@ Files needed -
   
    - Add a map of Brazil showing all locations 
    
-   - Create whisker plots of all average heights
+   - Create box plots of all average heights
    
    -
    
