@@ -1,8 +1,16 @@
 ---
 title: "_Hippocampus reidi_"
 author: David Jones
-output: ioslides_presentation
+output: 
+  ioslides_presentation:
+    Widescreen: true
 ---
+
+<style>
+.reveal .slides section .slideContent ul li{
+    font-size: 62pt;
+}
+</style>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -14,9 +22,17 @@ library(tidyverse)
 
 ```
 
-## **Seahorses**
+## **Where to Find Seahorses** {data-background="../images/Camurupim.jpg"}
 
-This presentation shows the size and locations for visible _Hippocampus reidi_ populations off the coast of Brazil. Its purpose is to help snorkelers and scuba divers who want to view seahorses in the wild.  
+This presentation shows the size and locations for visible
+
+_Hippocampus reidi_ populations off the coast of Brazil. Its
+
+purpose is to help snorkelers and scuba divers who want to 
+
+view seahorses in the wild. The data will compare the size 
+
+and population trends of the locations.    
 
 ## **Locations in Brazil to find _Hippocampus reidi_** {.smaller}
 
@@ -53,7 +69,7 @@ knitr::kable(head(Hippocampus_reidi_Brazil))
 
 ## **Modified data for _Hippocampus reidi_** {.smaller .flexbox .vcenter}
 
-This code separates the average height column into minimum and maximum height columns.Penha was removed due to small sample size and lack of data. 
+This code separates the average height column into minimum and maximum height columns. Penha was removed due to small sample size and lack of data. 
 
 
 ```{r, echo=TRUE}
