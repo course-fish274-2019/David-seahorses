@@ -27,5 +27,10 @@ Files needed -
    
    - Create box plots of all average heights and combine them by making each new min/max height column its own dataset and using the data.frame function 
    
+   - Add Background images
+   
+   - Add more text explaining project
+   
+   - Bar graph showing means, mins, and maxes for all locations 
     
    
