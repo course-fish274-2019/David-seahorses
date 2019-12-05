@@ -34,20 +34,28 @@ view seahorses in the wild. The data will compare the size
 
 and population trends of the locations.    
 
-## **Locations in Brazil to find _Hippocampus reidi_** {.smaller}
+## **Locations in Brazil sampled for _Hippocampus reidi_** {data-background="../images/Camurupim.jpg"}
 
+<div style="float: left; width: 40%;">
 - Camurupim         
 - Ubatuba             
 - Pacoti
 - Mal Cozinhado
 - Tubarão
 - Casqueira
+</div>
+
+<div style="float: right; width: 60%;">
 - Mamanguape
 - Itapessoca
 - Ariquindá
 - Andorinhas
 - Itaipu
 - Penha
+</div>
+
+The range of _Hippocampus reidi_ is Cape Hatteras, United States 
+to Brazil and the Gulfof Mexico
 
 ## **_Hippocampus reidi_** 
 
