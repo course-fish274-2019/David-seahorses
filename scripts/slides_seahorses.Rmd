@@ -1,16 +1,13 @@
 ---
-title: "_Hippocampus reidi_"
-author: David Jones
+title: "_Hippocampus reidi_ in Brazil"
+author: David Jones 
+date: FISH 274
+
 output: 
   ioslides_presentation:
     Widescreen: true
+    logo: ../images/title_page.jpg
 ---
-
-<style>
-.reveal .slides section .slideContent ul li{
-    font-size: 62pt;
-}
-</style>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -22,7 +19,7 @@ library(tidyverse)
 
 ```
 
-## **Where to Find Seahorses** {data-background="../images/Camurupim.jpg"}
+## **Introduction** {data-background="../images/Camurupim.jpg"}
 
 This presentation shows the size and locations for visible
 
