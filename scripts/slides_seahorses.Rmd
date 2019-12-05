@@ -54,7 +54,34 @@ and population trends of the locations.
 The range of _Hippocampus reidi_ is Cape Hatteras, United States 
 to Brazil and the Gulf of Mexico
 
-## **How to Find Them** {.smaller data-background="../images/Pacoti.jpg"}
+## Map of Seahorse Sample Locations {data-background="../images/Pacoti.jpg"}
+
+<div style= "float:right;position: relative; top: -40px;">
+
+![Image of Brazil](../images/Locations.jpg)
+
+</div>
+
+Within Brazil  
+
+they are 
+
+found from the 
+
+northern state of 
+
+Pará (Salgado 
+
+region) to the 
+
+southern state of 
+
+Rio Grande do 
+
+Sul.
+
+
+## **How to Find Them** {.smaller data-background="../images/Mal Cozinhado.jpg"}
 
 <div style= "float:right;position: relative; top: -40px;">
 
@@ -78,10 +105,6 @@ reefs and seagrass
 
 beds.
 
-
-## Map of Seahorse Locations
-
-![Brazil](../images/Locations.jpg)
 
 ## **Data for _Hippocampus reidi_** {.smaller .flexbox .vcenter}
 
