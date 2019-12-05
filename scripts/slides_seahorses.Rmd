@@ -34,7 +34,7 @@ view seahorses in the wild. The data will compare the size
 
 and population trends of the locations.    
 
-## **Locations in Brazil sampled for _Hippocampus reidi_** {data-background="../images/Camurupim.jpg"}
+## **Locations in Brazil sampled for _Hippocampus reidi_** {data-background="../images/Ubatuba.jpg"}
 
 <div style="float: left; width: 40%;">
 - Camurupim         
@@ -55,11 +55,32 @@ and population trends of the locations.
 </div>
 
 The range of _Hippocampus reidi_ is Cape Hatteras, United States 
-to Brazil and the Gulfof Mexico
+to Brazil and the Gulf of Mexico
 
-## **_Hippocampus reidi_** 
+## **How to Find Them** {.smaller data-background="../images/Pacoti.jpg"}
 
-![picture of hippocampus reidi](../images/Hippocampus_reidi.jpg)
+<div style= "float:right;position: relative; top: -40px;">
+
+![Image of _Hippocampus reidi_](../images/Hippocampus_reidi.jpg)
+
+</div>
+
+_Hippocampus reidi_ can 
+
+be found down to 55 
+
+meters and can grow 
+
+to approximately 17.5 
+
+centimeters long. They
+
+are found in coral 
+
+reefs and seagrass 
+
+beds.
+
 
 ## Map of Seahorse Locations
 
