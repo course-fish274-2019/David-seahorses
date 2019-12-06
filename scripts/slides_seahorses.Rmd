@@ -137,27 +137,35 @@ knitr::kable(head(data_limited_2))
  
 ```
 
-## **Modified data for _Hippocampus reidi_** {.smaller .flexbox .vcenter}
+## **Detailed Data for _Hippocampus reidi_** {.smaller .flexbox .vcenter data-background="../images/Tubarao.jpg"}
 
-This code separates the average height column into minimum and maximum height columns. Penha was removed due to small sample size and lack of data. 
+<div style= "float:left;position: relative; top: +100px;">
 
+Ma = male Fe = female N = non B = brooding I = immature M = mature
 
-```{r, echo=TRUE}
+Penha removed for small sample size
+
+</div>
+
+<div style= "float:left;position: relative; top: +80px;">
+
+```{r}
 
 data_separated <- select(Hippocampus_reidi_Brazil, Location, Number_Sighted, Avg_Height_cm, Height_Range_cm, Avg_Height_nonbrooding_males_cm, Height_Range_nonbrooding_male_cm, Avg_Height_immature_females_cm, Height_Range_immature_females_cm, Avg_Height_brooding_males_cm, Height_Range_brooding_males_cm, Avg_Height_mature_females_cm, Height_Range_mature_females_cm) 
 
 data = data_separated[-12,]
 
-data %>%
-  separate(Height_Range_cm, into = c("Minimum_Height_cm", "Maximum_Height_cm"), sep = "-") %>%
-  separate(Height_Range_nonbrooding_male_cm, into = c("Minimum_Height_NB_male_cm", "Maximum_Height_NB_male_cm"), sep = "-") %>%
-  separate(Height_Range_immature_females_cm, into = c("Minimum_Height_IF_cm", "Maximum_Height_IF_cm"), sep = "-") %>%
-  separate(Height_Range_brooding_males_cm, into = c("Minimum_Height_BM_cm", "Maximum_Height_BM_cm"), sep = "-") %>%
-  separate(Height_Range_mature_females_cm, into = c("Minimum_Height_MF_cm", "Maximum_Height_MF_cm"), sep = "-") 
+data_1 = subset(data, select = -c(Number_Sighted,Avg_Height_cm,Avg_Height_nonbrooding_males_cm,Avg_Height_immature_females_cm,Avg_Height_brooding_males_cm,Avg_Height_mature_females_cm) )
 
-knitr::kable(head(Hippocampus_reidi_Brazil))
+data_1 %>%
+  separate(Height_Range_cm, into = c("Min cm", "Max cm"), sep = "-") %>%
+  separate(Height_Range_nonbrooding_male_cm, into = c("Min NBMa (cm)", "Max NBMa (cm)"), sep = "-") %>%
+  separate(Height_Range_immature_females_cm, into = c("Min IFe (cm)", "Max IFe (cm)"), sep = "-") %>%
+  separate(Height_Range_brooding_males_cm, into = c("Min BMa (cm)", "Max BMa (cm)"), sep = "-") %>%
+  separate(Height_Range_mature_females_cm, into = c("Min MFe (cm)", "Max MFe (cm)"), sep = "-") 
 
 ```
+</div>
 
 ## First boxplot (work needed)
 
