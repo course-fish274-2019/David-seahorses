@@ -20,6 +20,28 @@ Files needed -
   
   - images/Locations.jpg (Map of seahorse locations)
   
+  - images/Andorinhas.jpg (Background Image)
+  
+  - images/Ariquinda.jpg (Background Image)
+  
+  - images/Camurupim.jpg (Background Image)
+  
+  - images/Casqueira.jpg (Background Image)
+  
+  - images/Itapessoca.jpg (Background Image)
+  
+  - images/Mal Cozinhado.jpg (Background Image)
+  
+  - images/Mamanguape.jpg (Background Image)
+  
+  - images/Pacoti.jpg (Background Image)
+  
+  - images/title_page.jpg (Banner Image)
+  
+  - images/Tubarao.jpg (Background Image)
+  
+  - images/Ubatuba.jpg (Background Image)
+  
   
   Mini-Project -
   
