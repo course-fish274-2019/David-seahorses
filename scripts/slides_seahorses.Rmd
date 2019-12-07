@@ -171,7 +171,7 @@ data_1 %>%
 
 <style> 
   #slide-1> p { 
-    margin-top: -50px; 
+    margin-top: -60px; 
   } 
 </style>
 
@@ -202,7 +202,7 @@ ggplot(new_data, aes(data_3)) +
 
 <style> 
   #slide-2> p { 
-    margin-top: -50px; 
+    margin-top: -60px; 
   } 
 </style>
 
