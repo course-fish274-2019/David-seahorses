@@ -217,6 +217,13 @@ ggplot(data = data_separated) +
 
 ```
 
+## Graph slide {#slide-3 .flexbox .vcenter data-background="../images/Andorinhas.jpg"}
+
+<style> 
+  #slide-3> p { 
+    margin-top: -60px; 
+  } 
+</style>
 
 
 
