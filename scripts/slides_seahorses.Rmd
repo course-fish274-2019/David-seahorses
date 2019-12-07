@@ -143,7 +143,7 @@ knitr::kable(head(data_limited_2))
 
 Ma = male Fe = female N = non B = brooding I = immature M = mature
 
-Penha removed for small sample size
+Penha was removed for small sample size
 
 </div>
 
@@ -167,11 +167,11 @@ data_1 %>%
 ```
 </div>
 
-## Average Heights by Location {#slide-1.flexbox .vcenter data-background="../images/Itapessoca.jpg"}
+## Average Heights by Location {#slide-1 .flexbox .vcenter data-background="../images/Itapessoca.jpg"}
 
 <style> 
   #slide-1> p { 
-    margin-top: -30px; 
+    margin-top: -50px; 
   } 
 </style>
 
@@ -198,7 +198,13 @@ ggplot(new_data, aes(data_3)) +
 
 ```
 
-## **Graph of _Hippocampus reidi_ size and visible populations**
+## **Size and Visible Populations** {#slide-2 .flexbox .vcenter data-background="../images/Ariquinda.jpg"}
+
+<style> 
+  #slide-2> p { 
+    margin-top: -50px; 
+  } 
+</style>
 
 ```{r}
 
