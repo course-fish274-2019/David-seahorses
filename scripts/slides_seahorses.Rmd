@@ -37,14 +37,14 @@ and population trends of the locations.
 - Camurupim         
 - Ubatuba             
 - Pacoti
-- Mamanguape
-- Itapessoca
+- Mal Cozinhado
+- Tubarão
 - Casqueira
 </div>
 
 <div style="float: right; width: 60%;">
-- Mal Cozinhado
-- Tubarão
+- Mamanguape
+- Itapessoca
 - Ariquindá
 - Andorinhas
 - Itaipu
@@ -159,18 +159,42 @@ data_1 = subset(data, select = -c(Number_Sighted,Avg_Height_cm,Avg_Height_nonbro
 
 data_1 %>%
   separate(Height_Range_cm, into = c("Min cm", "Max cm"), sep = "-") %>%
-  separate(Height_Range_nonbrooding_male_cm, into = c("Min NBMa (cm)", "Max NBMa (cm)"), sep = "-") %>%
-  separate(Height_Range_immature_females_cm, into = c("Min IFe (cm)", "Max IFe (cm)"), sep = "-") %>%
-  separate(Height_Range_brooding_males_cm, into = c("Min BMa (cm)", "Max BMa (cm)"), sep = "-") %>%
-  separate(Height_Range_mature_females_cm, into = c("Min MFe (cm)", "Max MFe (cm)"), sep = "-") 
+  separate(Height_Range_nonbrooding_male_cm, into = c("Min NBMa cm", "Max NBMa cm"), sep = "-") %>%
+  separate(Height_Range_immature_females_cm, into = c("Min IFe cm", "Max IFe cm"), sep = "-") %>%
+  separate(Height_Range_brooding_males_cm, into = c("Min BMa cm", "Max BMa cm"), sep = "-") %>%
+  separate(Height_Range_mature_females_cm, into = c("Min MFe cm", "Max MFe cm"), sep = "-") 
 
 ```
 </div>
 
-## First boxplot (work needed)
+## Average Heights by Location {#slide-1.flexbox .vcenter data-background="../images/Itapessoca.jpg"}
+
+<style> 
+  #slide-1> p { 
+    margin-top: -30px; 
+  } 
+</style>
 
 ```{r}
-ggplot(data=data, mapping=aes(x=Location, y=Avg_Height_cm)) + geom_boxplot()
+
+new_data <- data.frame(data_3 = c("Camurupim","Ubatuba","Pacoti","Mal Cozinhado","Tubarão","Casqueira","Mamanguape","Itapessoca","Ariquindá","Andorinhas","Itaipu"),
+Avg_Height_cm = c(12.6,13.83,7.6,6.1,13.5,14.2,13.0,12.8,14.0,9.3,13.9),
+Avg_Height_nonbrooding_males_cm = c(14.7,13.0,8.5,3.5,15.0,15.6,13.25,14.5,16.6,12.0,14.7),
+Avg_Height_immature_females_cm = c(13.9,15.5,7.8,9.2,15.7,12.8,14.0,14.9,15.2,0,13.9),
+Avg_Height_brooding_males_cm = c(14.8,13.0,11.6,11.0,15.9,16.6,14.9,14.7,16.1,12.65,16.0),
+Avg_Height_mature_females_cm = c(15.3,16.0,7.1,8.0,16.4,15.5,14.6,14.8,14.1,13.9,13.9))
+
+ggplot(new_data, aes(data_3)) + 
+  geom_point(aes(y = Avg_Height_cm, color = "Avg Height (cm)")) + 
+  geom_point(aes(y = Avg_Height_nonbrooding_males_cm, color = "Avg Height Nonbrooding Males" )) +
+  geom_point(aes(y = Avg_Height_immature_females_cm, color = "Avg Height Immature Females")) +
+  geom_point(aes(y = Avg_Height_brooding_males_cm, color = "Avg Height Brooding Males")) +
+  geom_point(aes(y = Avg_Height_mature_females_cm, color = "Avg Height Mature Females")) +
+   theme_bw() +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  xlab("Locations") +
+  ylab("Average Heights (cm)") +
+  theme(axis.text.x = element_text(angle=90, hjust=1)) 
 
 ```
 
