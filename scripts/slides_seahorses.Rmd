@@ -54,7 +54,7 @@ and population trends of the locations.
 The range of _Hippocampus reidi_ is Cape Hatteras, United States 
 to Brazil and the Gulf of Mexico
 
-## Map of Seahorse Sample Locations {data-background="../images/Pacoti.jpg"}
+## **Map of Seahorse Sample Locations** {data-background="../images/Pacoti.jpg"}
 
 <div style= "float:right;position: relative; top: -40px;">
 
@@ -167,7 +167,7 @@ data_1 %>%
 ```
 </div>
 
-## Average Heights by Location {#slide-1 .flexbox .vcenter data-background="../images/Itapessoca.jpg"}
+## **Average Heights by Location** {#slide-1 .flexbox .vcenter data-background="../images/Itapessoca.jpg"}
 
 <style> 
   #slide-1> p { 
@@ -217,7 +217,7 @@ ggplot(data = data_separated) +
 
 ```
 
-## Graph slide {#slide-3 .flexbox .vcenter data-background="../images/Andorinhas.jpg"}
+## **Graph slide** {#slide-3 .flexbox .vcenter data-background="../images/Andorinhas.jpg"}
 
 <style> 
   #slide-3> p { 
@@ -225,8 +225,8 @@ ggplot(data = data_separated) +
   } 
 </style>
 
+## **Video**
 
-
-
+## **Conclusion**
 
 
