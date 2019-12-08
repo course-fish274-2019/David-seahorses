@@ -105,6 +105,25 @@ reefs and seagrass
 
 beds.
 
+## **_Hippocampus reidi_ in Action** {data-background="../images/Itaipu.jpg"}
+
+<div style= "float:right;position: relative; top: -40px;">
+
+![Video of _Hippocampus reidi_](https://media.giphy.com/media/v3v6eD6wEKrew/giphy.gif){width=500px}
+
+</div>
+
+Also known as the 
+
+longsnout seahorse 
+
+males and females are 
+
+easily distinguished 
+
+due to their bright 
+
+colors.
 
 ## **Data for _Hippocampus reidi_ Samples** {.smaller .flexbox .vcenter data-background="../images/Mamanguape.jpg"}
 
@@ -225,8 +244,8 @@ ggplot(data = data_separated) +
   } 
 </style>
 
-## **Video**
+## **Conclusion** {data-background="../images/Penha.jpg"}
 
-## **Conclusion**
+Casqueira (Rio Grande do Norte)
 
 
