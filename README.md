@@ -42,6 +42,9 @@ Files needed -
   
   - images/Ubatuba.jpg (Background Image)
   
+  - images/Itaipu.jpg (Background Image)
+  
+  - images/Penha.jpg (Background Image)
   
   Mini-Project -
   
