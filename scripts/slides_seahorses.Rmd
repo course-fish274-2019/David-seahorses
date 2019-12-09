@@ -236,13 +236,33 @@ ggplot(data = data_separated) +
 
 ```
 
-## **Graph slide** {#slide-3 .flexbox .vcenter data-background="../images/Andorinhas.jpg"}
+## **Mean, Min, and Max Height** {#slide-3 .flexbox .vcenter data-background="../images/Andorinhas.jpg"}
 
 <style> 
   #slide-3> p { 
     margin-top: -60px; 
   } 
 </style>
+
+```{r}
+
+new_data_1 <- data.frame(data_4 = c("Camurupim","Ubatuba","Pacoti","Mal Cozinhado","Tubarão","Casqueira","Mamanguape","Itapessoca","Ariquindá","Andorinhas","Itaipu"),
+Avg_Height_cm = c(12.6,13.83,7.6,6.1,13.5,14.2,13.0,12.8,14.0,9.3,13.9),
+Min_Height_cm = c(3.0,7.5,3.4,2.4,5.5,4.5,5.0,5.7,6.0,5.5,5.5),
+Max_Height_cm = c(17.5,17.0,16.4,13.0,19.5,20.0,18.0,17.0,18.0,13.9,19.0))
+
+gather(new_data_1, variable, value, Avg_Height_cm:Max_Height_cm) %>%
+        ggplot(., aes(x= data_4, 
+                      y=value,
+                      fill=variable)) +
+            geom_bar(stat='identity', position='dodge') +
+   theme_bw() +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  xlab("Locations") +
+  ylab("Average Height Range (cm)") +
+  theme(axis.text.x = element_text(angle=90, hjust=1)) 
+
+```
 
 ## **Conclusion** {data-background="../images/Penha.jpg"}
 
