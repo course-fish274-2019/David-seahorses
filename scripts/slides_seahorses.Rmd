@@ -246,6 +246,14 @@ ggplot(data = data_separated) +
 
 ## **Conclusion** {data-background="../images/Penha.jpg"}
 
-Casqueira (Rio Grande do Norte)
+Casqueira had both the highest visible population and the 
 
+largest average size. The largest overall popluations and 
 
+average sizes occured along the northern coast of Brazil. 
+
+Being a small coastline compared to the eastern  side of 
+
+Brazil it would be a good idea to stay north if your goal 
+
+is to see _Hippocampus reidi_ in the wild. 
