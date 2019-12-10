@@ -205,10 +205,10 @@ Avg_Height_mature_females_cm = c(15.3,16.0,7.1,8.0,16.4,15.5,14.6,14.8,14.1,13.9
 
 ggplot(new_data, aes(data_3)) + 
   geom_point(aes(y = Avg_Height_cm, color = "Avg Height (cm)")) + 
-  geom_point(aes(y = Avg_Height_nonbrooding_males_cm, color = "Avg Height Nonbrooding Males" )) +
-  geom_point(aes(y = Avg_Height_immature_females_cm, color = "Avg Height Immature Females")) +
-  geom_point(aes(y = Avg_Height_brooding_males_cm, color = "Avg Height Brooding Males")) +
-  geom_point(aes(y = Avg_Height_mature_females_cm, color = "Avg Height Mature Females")) +
+  geom_point(aes(y = Avg_Height_nonbrooding_males_cm, color = "Avg Height Nonbrooding Males (cm)" )) +
+  geom_point(aes(y = Avg_Height_immature_females_cm, color = "Avg Height Immature Females (cm)")) +
+  geom_point(aes(y = Avg_Height_brooding_males_cm, color = "Avg Height Brooding Males (cm)")) +
+  geom_point(aes(y = Avg_Height_mature_females_cm, color = "Avg Height Mature Females (cm)")) +
    theme_bw() +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
   xlab("Locations") +
